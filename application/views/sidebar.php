@@ -16,13 +16,13 @@
                             <a href="<?php echo site_url('dashboard');?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="<?php echo site_url('pengguna');?>"><i class="fa fa-table fa-fw"></i> Manajemen Pengguna</a>
+                            <a href="<?php echo site_url('pengguna');?>"><i class="fa fa-group fa-fw"></i> Manajemen Pengguna</a>
                         </li>
                         <li>
-                            <a href="<?php echo site_url('barang');?>"><i class="fa fa-table fa-fw"></i> Manajemen Barang</a>
+                            <a href="<?php echo site_url('barang');?>"><i class="fa fa-briefcase fa-fw"></i> Manajemen Barang</a>
                         </li>
                         <li>
-                            <a href="<?php echo site_url('transaksi');?>"><i class="fa fa-table fa-fw"></i> Lihat Transaksi</a>
+                            <a href="<?php echo site_url('transaksi');?>"><i class="fa fa-exchange fa-fw"></i> Lihat Transaksi</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Laporan Penjualan<span class="fa arrow"></span></a>
