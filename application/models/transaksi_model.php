@@ -22,6 +22,14 @@ class Transaksi_model extends CI_Model{
         );
         $this->db->insert('transaksi', $datainsert);
     }
+
+    function selectinv($nonota){
+        $this->db->select('*');
+        $this->db->from('transaksi');
+        $this->db->where('nonota', $nonota);
+        $query = $this->db->get();
+        return $query;
+    }
     
 }
 ?>

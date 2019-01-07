@@ -29,12 +29,14 @@ class Detailtransaksi_model extends CI_Model{
         $this->db->empty_table('tmp_detailtransaksi');
     }
 
-    function selectlaporandetail(){
+    function selectdetailinv(){
         $this->db->select('namabarang,hargajual,satuan,qty,total,kodebarang');
         $this->db->from('detailtransaksi');
         $this->db->join('barang', 'barang.kodebarang = detailtransaksi.barang_kodebarang');
         $query = $this->db->get();
         return $query;
     }
+
+    
 }
 ?>
