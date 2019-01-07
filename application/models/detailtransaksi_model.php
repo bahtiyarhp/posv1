@@ -29,10 +29,11 @@ class Detailtransaksi_model extends CI_Model{
         $this->db->empty_table('tmp_detailtransaksi');
     }
 
-    function selectdetailinv(){
+    function selectdetailinv($inv){
         $this->db->select('namabarang,hargajual,satuan,qty,total,kodebarang');
         $this->db->from('detailtransaksi');
         $this->db->join('barang', 'barang.kodebarang = detailtransaksi.barang_kodebarang');
+        $this->db->where('transaksi_nonota',$inv);
         $query = $this->db->get();
         return $query;
     }

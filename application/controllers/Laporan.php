@@ -74,7 +74,7 @@ class Laporan extends CI_Controller {
 
                 // get transaksi nota detail
                 $this->load->model('detailtransaksi_model');
-                $datadetailinv = $this->detailtransaksi_model->selectdetailinv()->result_array();
+                $datadetailinv = $this->detailtransaksi_model->selectdetailinv($inv)->result_array();
                 $i =1;       
                 foreach ($datadetailinv as $kolom) {
 
