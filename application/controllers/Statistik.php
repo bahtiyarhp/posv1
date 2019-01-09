@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Transaksi extends CI_Controller {
+class Statistik extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,7 +22,7 @@ class Transaksi extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('sidebar');
-		$this->load->view('admin/transaksi_page');
+		$this->load->view('admin/statistik_page');
 		$this->load->view('footer');
 	}
 

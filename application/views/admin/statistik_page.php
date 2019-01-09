@@ -2,7 +2,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header"><p class="fa fa-exchange"></p> Lihat Transaksi</h1>
+                    <h1 class="page-header"><p class="fa fa-signal"></p> Statistik Penjualan</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>

@@ -25,6 +25,9 @@
                             <a href="<?php echo site_url('transaksi');?>"><i class="fa fa-exchange fa-fw"></i> Lihat Transaksi</a>
                         </li>
                         <li>
+                            <a href="<?php echo site_url('statistik');?>"><i class="fa fa-signal fa-fw"></i> Statistik Penjualan</a>
+                        </li>
+                        <li>
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Laporan Penjualan<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
